@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+  margin: 25px 50px;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 18px;
+}
+
+.nav {
+  padding: 5px;
+  background-color: yellowgreen;
+  position: fixed;
+  z-index: 432489079083409812309812;
+}
+
+.nav .nav__item {
+  font-family: IBM Plex Mono;
+  color: black;
+  text-decoration: none;
+  /* color: lightgray; */
+  margin-right: 55px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+.logo {
+  margin-left: 100px;
+}
+
+.hero {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 30px 80px;
+}
+
+.hero .hero__left {
+  display: inline-block;
+  margin-bottom: 75px;
+}
+
+.hero .hero__left .hero__left--text {
+  font-size: 100px;
+  text-align: center;
+  
+}
+
+.hero .hero__left .hero__left--btn {
+  background-color: white;
+  height: 40px;
+  width: 200px;
+  border: 3px solid lightgray;
+  padding: 0 10px;
+  font-size: 17px;
+  color: black;
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: IBM Plex Mono;
+  text-transform: uppercase;
+}
+
+.hero .hero__right {
+  display: inline-block;
+  margin-left: 45px;
+}
+
+.hero__right--img {
+  display: block;
+}
+
+
+.middle-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customHR {
+  height: 3px;
+  background-color: black;
+  margin: 30px 0;
+}
+
+.row1 {
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 100%;
+  
+}
+
+.row1__box {
+  display: inline-block;
+  width: 49%;
+  padding: 5px;
+}
+
+
+.row2 {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.row2__box {
+  margin-top: 30px;
+  display: inline-block;
+  width: 33%;
+  padding: 5px;
+}
+
+.contact__phone {
+  margin: 15px 0;
+}
+
+.contact__email {
+  margin: 15px 0;
+}
+
+address {
+  font-size: 17px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: IBM Plex Mono;
+}
